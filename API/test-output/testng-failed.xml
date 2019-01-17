@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="ScriptReference" value="param-val-not-found"/>
+  <parameter name="Description" value="param-val-not-found"/>
+  <parameter name="ScenarioReference" value="param-val-not-found"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.NSE.TestRunner">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.NSE.TestRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

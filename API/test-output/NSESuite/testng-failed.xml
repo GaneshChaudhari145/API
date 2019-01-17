@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NSESuite]">
+  <test name="Description(failed)">
+    <parameter name="Version" value="6.0.1"/>
+    <parameter name="DeviceOS" value="Android"/>
+    <parameter name="DeviceName" value="b17090b9"/>
+    <classes>
+      <class name="com.NSE.TestRunner">
+        <methods>
+          <include name="startReport"/>
+          <include name="test"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.NSE.TestRunner -->
+    </classes>
+  </test> <!-- Description(failed) -->
+</suite> <!-- Failed suite [NSESuite] -->

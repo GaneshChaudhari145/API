@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status_cd": {
+      "type": "string"
+    },
+    "auth_token": {
+      "type": "string"
+    },
+    "sek": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status_cd",
+    "auth_token",
+    "sek"
+  ]
+}

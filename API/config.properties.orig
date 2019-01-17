@@ -1,0 +1,16 @@
+<<<<<<< working copy
+TestDataFolder=D://NSE_API_TestData//DataForAPI
+=======
+TestDataFolder=D:\\NSE_API_TestData\\DataForAPI
+>>>>>>> merge rev
+ApplicationURI=http://172.17.5.170:8080
+<<<<<<< working copy
+TestDataFileLocation=D://NSE_API_TestData//DataForAPI//TestData
+=======
+TestDataFileLocation=D:\\NSE_API_TestData\\DataForAPI\\TestData
+>>>>>>> merge rev
+ConfigAuthentication=True
+Execution_Folder=D:\\API_Execution_Result\\Execution_Result_Summary
+TestDataWorkBook=NSETemplate.xlsx
+TestScenarioFileLocation=\\TestSuite\\1000_TestSuite.xlsx
+SchemaLocation=D:\\APITestAutomation_TestData\\TestData\\schemaValidation

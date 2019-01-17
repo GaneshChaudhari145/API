@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "arnList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "arn": {
+            "type": "string"
+          },
+          "aplty": {
+            "type": "string"
+          },
+          "ismig": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "arn",
+          "aplty",
+          "ismig"
+        ]
+      }
+    },
+    "arnListCount": {
+      "type": "integer"
+        
+    }
+  },
+  "required": [
+    "arnList",
+    "arnListCount"
+  ]
+}
